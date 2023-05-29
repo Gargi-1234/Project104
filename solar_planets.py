@@ -88,6 +88,7 @@ cv2.putText(img,
             color =(37, 181, 237),
             thickness= 1)
 
+cv2.imwrite("Solar_systemwithname.jpg",img)
 
 cv2.imshow("output",img)
 cv2.waitKey(0)
